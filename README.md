@@ -45,4 +45,4 @@ I tried three different models and evaluated them using Accuracy score and RMSE.
 
 ## Model Performance
 * Multiple Linear Regression model outperformed others  
-![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/00e59d68630737825bcf1e1f621047b530670140/Capture.PNG "Models comparison")
+![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/ddccff5daf8d9d325211fc9fc22f3fce2dfb047b/comparison.PNG "Models comparison")
