@@ -1,4 +1,4 @@
-# KIA Cars Price Prediction:  Project Overview 
+# Kia Cars Price Prediction:  Project Overview 
 * Created a tool that estimates market price of Kia cars in Azerbaijan to help sellers/buyers to make the best decisions for their sale/purchase 
 * Scraped over 3000 car advertisement descriptions from Turbo.az using Python
 * Cleaned dataset, analyzed patterns and proceeded with Feature Engineering
@@ -45,4 +45,4 @@ I tried three different models and evaluated them using Accuracy score and RMSE.
 
 ## Model Performance
 * Multiple Linear Regression model outperformed others  
-![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/6811fc22c31283a1356775f72c7aa1896e345953/comparison.png "Models comparison")
+![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/00e59d68630737825bcf1e1f621047b530670140/Capture.PNG "Models comparison")
