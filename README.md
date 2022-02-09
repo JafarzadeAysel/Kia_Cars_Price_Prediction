@@ -36,6 +36,7 @@ Applied data cleaning and feature engineering to make data better suited to the 
 
 ## EDA
 I tried to deliver meaningful insights from the data for a car buyer in Azerbaijan
+![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/f6ec13de5b07d48af3cf77bd13bbb2fe5bf6094d/regions.png "Cars by regions")
 
 ## Model Building
 I tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option for evaluation
