@@ -37,7 +37,7 @@ Applied data cleaning and feature engineering to make data better suited to the 
 I tried to deliver meaningful insights from the data for a car buyer in Azerbaijan
 ![](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/4d0a359c634463b1d30181b3f5bc3f97d60e4395/by_regions.PNG "Cars by regions")
 ![](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/7f89a09b05ac93660046ccf70dec549a40d1ee66/expensive_cars.PNG "Most Expensive cars")
-![](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/9f4217d753459cf659280b7d42d946bfdc20d6e3/price_distribution_cars.png "Price distribution of cars")
+![](https://github.com/JafarzadeAysel/Aysel_Portfolio/blob/b854bcb422a3d36852731d43011b5b3161c2ede4/images/price_distribution_cars.png "Price distribution of cars")
 
 ## Model Building
 I've tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option for evaluation
