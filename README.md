@@ -36,7 +36,7 @@ Applied data cleaning and feature engineering to make data better suited to the 
 
 ## EDA
 I tried to deliver meaningful insights from the data for a car buyer in Azerbaijan
-![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/9c33c5da7e1e7bf22dbd7e57e53223a8934599a5/price_distribution.png "Price distribution of cars")
+![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/fb15b4eba19ea3708f94d9d270a75ddae306a017/price_distribution.png "Price distribution of cars")
 ![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/f6ec13de5b07d48af3cf77bd13bbb2fe5bf6094d/regions.png "Cars by regions")
 
 ## Model Building
