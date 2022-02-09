@@ -1,7 +1,7 @@
 # KIA Cars Price Prediction:  Project Overview 
-* Created a tool that estimates Kia car's market price in Azerbaijan to help sellers/buyers to make the best decisions for their sale/purchase 
-* Scraped over 4000 car advertisement descriptions from Turbo.az and analyzed them using Python
-* Cleaned dataset and proceeded with Feature Engineering
+* Created a tool that estimates market price of Kia cars in Azerbaijan to help sellers/buyers to make the best decisions for their sale/purchase 
+* Scraped over 3000 car advertisement descriptions from Turbo.az using Python
+* Cleaned dataset, analyzed patterns and proceeded with Feature Engineering
 * Tested different algorithms for given regression problem such as Linear, Lasso and Decision Tree Regressions
 * Compared the Accuracy Score and Root Mean Squared Error of these models to see which model performs better
 
@@ -11,7 +11,7 @@
 * Link to Dataset: https://drive.google.com/open?id=1mrKSmWdOZnAI59jaRYEgS99zQJF8pOZg
 
 ## Web Scraping
-From each car description following features were collected:
+Following features were collected from each car description:
 * City
 * Brand
 * Model
@@ -31,21 +31,18 @@ From each car description following features were collected:
 Applied data cleaning and feature engineering to make data better suited to the problem at hand:
 * Cleaned duplicate values and fixed inconsistencies in some columns 
 * Outliers detected by using standard deviation and handled
-* Dimensonality reduction applied to some categorical columns for encoding 
-* Transformed the categorical variables into dummy variables
+* Dimensonality reduction applied to some categorical columns for transformation in the dummy variables
+* Converted the categorical variables into dummy variables
 
+## EDA
+I tried to deliver meaningful insights from the data for a car buyer in Azerbaijan
 
-## Machine Learning: Predictive Modelling
-I tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option
+## Model Building
+I tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option for evaluation
 * Split the data into train and tests sets with a test size of 20%.
-* Tested different algorithms for given regression problem such as Linear, Lasso and Decision Tree Regressions
-* Trial models were SVM, Random Forest, Logistic Regression
-* Best performed model: SVM
+* Tested different algorithms such as Multiple Linear, Lasso and Decision Tree Regressions
+* Compared the Accuracy Score and Root Mean Squared Error of these models to see which model performs better
 
 ## Model Performance
-* The metric used for the models’ evaluation is the ROC and AUC
-
-
-## Visuals
-![alt text](https://github.com/JafarzadeAysel/Bank_Loan_Default_Prediction/blob/main/default_non.PNG "Defaults vs Non-Defaults in imbalanced data")
-![alt text](https://github.com/JafarzadeAysel/Bank_Loan_Default_Prediction/blob/main/roc-auc.PNG "ROC - AUC curve of model")
+* Multiple Linear Regression model outperformed others  
+![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/6811fc22c31283a1356775f72c7aa1896e345953/comparison.png "Models comparison")
