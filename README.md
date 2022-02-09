@@ -7,8 +7,7 @@
 
 ## Code and Resources Used
 * Python Version: 3.7  
-* Packages: pandas, numpy, BeautifulSoup, matplotlib, scipy, sklearn, pickle
-* Link to Dataset: https://drive.google.com/open?id=1mrKSmWdOZnAI59jaRYEgS99zQJF8pOZg
+* Packages: pandas, numpy, BeautifulSoup, matplotlib, plotly, scipy, sklearn, pickle
 
 ## Web Scraping
 Following features were collected from each car description:
@@ -31,7 +30,7 @@ Following features were collected from each car description:
 Applied data cleaning and feature engineering to make data better suited to the problem at hand:
 * Cleaned duplicate values and fixed inconsistencies in some columns 
 * Outliers detected by using standard deviation and handled
-* Dimensonality reduction applied to some categorical columns for transformation in the dummy variables
+* Dimensionality reduction applied to some categorical columns for transformation in the dummy variables
 * Converted the categorical variables into dummy variables
 
 ## EDA
@@ -41,7 +40,7 @@ I tried to deliver meaningful insights from the data for a car buyer in Azerbaij
 ![alt text](https://github.com/JafarzadeAysel/Kia_Cars_Price_Prediction/blob/9f4217d753459cf659280b7d42d946bfdc20d6e3/price_distribution_cars.png "Price distribution of cars")
 
 ## Model Building
-I tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option for evaluation
+I've tried three different models and evaluated them using Accuracy score and RMSE. I chose RMSE becacuse outliers already cleaned and it seemed as best option for evaluation
 * Split the data into train and tests sets with a test size of 20%.
 * Tested different algorithms such as Multiple Linear, Lasso and Decision Tree Regressions
 * Compared the Accuracy Score and Root Mean Squared Error of these models to see which model performs better
