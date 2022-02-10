@@ -1,4 +1,4 @@
-# Kia Cars Price Prediction:  Project Overview 
+# Price Prediction of Kia Cars in Azerbaijan:  Project Overview 
 * Created a tool that estimates market price of Kia cars in Azerbaijan to help sellers/buyers to make the best decisions for their sale/purchase 
 * Scraped over 3000 car advertisement descriptions from Turbo.az using Python
 * Cleaned dataset, analyzed patterns and proceeded with Feature Engineering
