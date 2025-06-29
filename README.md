@@ -30,7 +30,7 @@ Following features were collected from each car description:
 Applied data cleaning and feature engineering to make data better suited to the problem at hand:
 * Cleaned duplicate values and fixed inconsistencies in some columns 
 * Outliers detected by using standard deviation and handled
-* Dimensionality reduction applied to some categorical columns for transformation in the dummy variables
+* Reducing cardinality applied to some categorical columns for transformation in the dummy variables
 * Converted the categorical variables into dummy variables
 
 ## EDA
